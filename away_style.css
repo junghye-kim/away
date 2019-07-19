@@ -1,6 +1,7 @@
 body{
   background-color: #EEEDE7;
   overflow-x: auto;
+  overflow-y: hidden;
   white-space: nowrap;
 
 }
