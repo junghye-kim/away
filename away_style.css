@@ -1,3 +1,357 @@
 body{
-  background-color: #EEEDE7
+  background-color: #EEEDE7;
+  overflow-x: auto;
+  white-space: nowrap;
+
+}
+
+img.suitcase{
+  display: block;
+  width: 15%;
+  height: auto;
+  position:fixed;
+  top: 52%;
+  left: 20%;
+  animation: slide-right 5s;
+
+
+
+}
+img.scroll_ground{
+  position: absolute;
+  width: 80%;
+  height: auto;
+  top: 70%;
+  left: -1%;
+}
+
+img.ground1{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:79%;
+
+}
+img.ground2{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:179%;
+}
+img.ground3{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:279%;
+
+}
+img.ground4{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:379%;
+}
+
+img.ground5{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:479%;
+}
+
+img.ground6{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:579%;
+}
+
+img.ground7{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:679%;
+}
+
+img.ground8{
+  position: absolute;
+  width: 100%;
+  margin: 0px;
+  top: 80%;
+  left:779%;
+}
+
+
+
+
+@keyframes slide-right {
+  0% {
+    left:-100px
+  }
+  100% {
+    left:20%
+  }
+}
+
+img.end1{
+  width: 13%;
+  height: auto;
+  margin: 0px;
+  position: absolute;
+  top: 51%;
+  left: 811%;
+}
+
+img.end2{
+  width: 17%;
+  height: auto;
+  margin: 0px;
+  position: absolute;
+  top: 42%;
+  left: 820%;
+}
+
+img.end3{
+  width: 13%;
+  height: auto;
+  margin: 0px;
+  position: absolute;
+  top: 45%;
+  left: 834%;
+}
+
+img.end4{
+  width: 8%;
+  height: auto;
+  margin: 0px;
+  position: absolute;
+  top: 68.2%;
+  left: 846%;
+}
+
+.ed_text{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: 15%;
+  left:105%;
+
+}
+
+img.end5{
+  width:5%;
+  height: auto;
+  position: absolute;
+  top: 28%;
+  left: 815%;
+}
+
+img.end6{
+  width:5.5%;
+  height: auto;
+  position: absolute;
+  top: 27%;
+  left: 832%;
+}
+
+.desc{
+  font-family: 'Lora', serif;
+  font-size: 13px;
+  color: #395797;
+  line-height: 1.8;
+}
+
+img.DataViz1{
+  width: 62.5%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 140%;
+  border: 2px solid #395797;
+}
+
+img.QSS82{
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 370%;
+  border: 2px solid #395797;
+}
+
+img.DataViz2{
+  width: 30%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 210%;
+  border: 2px solid #395797;
+}
+
+img.DataViz3{
+  width: 37%;
+  height: auto;
+  position: absolute;
+  top: -30%;
+  left: 245%;
+  border: 2px solid #395797;
+}
+
+img.DataViz4{
+  width: 37%;
+  height: auto;
+  position: absolute;
+  top: 44%;
+  left: 210%;
+  border: 2px solid #395797;
+}
+
+img.DataViz5{
+  width: 30.5%;
+  height: auto;
+  position: absolute;
+  top: 44%;
+  left: 251.5%;
+  border: 2px solid #395797;
+}
+
+img.pennant{
+  width: 20%;
+  position: absolute;
+  top: -20%;
+  left:-12%;
+  transform: rotate(-20deg)
+}
+
+img.flag{
+  width: 9%;
+  position: absolute;
+  top: 88%;
+  left:82%;
+  transform: rotate(20deg)
+}
+
+img.click{
+  width: 30%;
+  position: absolute;
+  top: -20%;
+  left:111%;
+  transform: rotate(-10deg)
+}
+
+.nyhan{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: 15%;
+  left:300%;
+  border:2px solid #395797;
+}
+
+.other_ed{
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: -30%;
+  left:460%;
+
+}
+
+.twoseventy{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: 10%;
+  left:430%;
+}
+
+.logo_270{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: -17%;
+  left:0%;
+}
+
+.skills_header{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  top: 0%;
+  left:125%;
+}
+
+.skills_list{
+  width: 70%;
+  height: auto;
+  position: absolute;
+  top: 20%;
+  left:125%;
+  color: #395797;
+  font-size: 14px;
+  line-height: 1.8;
+}
+
+.glossier{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: 10%;
+  left:560%;
+}
+
+.logo_glossier{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: -17%;
+  left:0%;
+}
+.away{
+  width: 50%;
+  height: auto;
+  padding: 10px;
+  margin: 5px;
+  white-space: normal;
+  position: absolute;
+  top: 10%;
+  left:680%;
+
+}
+.logo_away{
+  width: 35%;
+  height: auto;
+  position: absolute;
+  top: -24%;
+  left:0%;
+}
+
+img.signature{
+  width: 45%;
+  height: auto;
+  position: absolute;
+  top: -4%;
+  left:802%;
 }
