@@ -252,14 +252,13 @@ img.click{
 }
 
 .nyhan{
-  width: 50%;
+  width: 60%;
   height: auto;
-  padding: 10px;
-  margin: 5px;
+  text-align: center;
   white-space: normal;
   position: absolute;
-  top: 15%;
-  left:300%;
+  top: -20%;
+  left:295%;
   border:2px solid #395797;
 }
 
@@ -284,6 +283,7 @@ img.click{
   position: absolute;
   top: 10%;
   left:430%;
+  background-color: #EEEDE7;
 }
 
 .logo_270{
@@ -311,6 +311,7 @@ img.click{
   color: #395797;
   font-size: 14px;
   line-height: 1.8;
+  background-color: #EEEDE7;
 }
 
 .glossier{
@@ -322,6 +323,7 @@ img.click{
   position: absolute;
   top: 10%;
   left:560%;
+  background-color: #EEEDE7;
 }
 
 .logo_glossier{
@@ -341,6 +343,7 @@ img.click{
   top: 10%;
   left:680%;
 
+
 }
 .logo_away{
   width: 35%;
@@ -351,9 +354,28 @@ img.click{
 }
 
 img.signature{
-  width: 45%;
+  width: 25%;
   height: auto;
   position: absolute;
-  top: -4%;
-  left:802%;
+  top: 5%;
+  left:814%;
+}
+
+.caption{
+  width: 140%;
+  height: auto;
+  padding: 2px;
+  white-space: normal;
+  position: absolute;
+  top: 120%;
+  left:140%;
+  background-color: #EEEDE7;
+}
+
+h3{
+  font-weight: 500;
+  color: #395797;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+
 }
